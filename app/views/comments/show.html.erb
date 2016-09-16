@@ -5,5 +5,11 @@
   <%= @comment.body %>
 </p>
 
+<p>
+  <strong>RumojiBody:</strong>
+  <%= @comment.decode_body %>
+</p>
+
+
 <%= link_to 'Edit', edit_comment_path(@comment) %> |
 <%= link_to 'Back', comments_path %>
