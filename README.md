@@ -1,24 +1,9 @@
-# README
+MySQLでUTF8を仕様時に絵文字を入力すると落ちる問題をrumojiとgemojiを使って解決するサンプル
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+生成ファイルが多かったので、絵文字ファイルをgitignoreに追加しているのでclone後下記が必要。
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+bin/rake emoji
+```
